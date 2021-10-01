@@ -41,7 +41,6 @@ bool detectLoop(struct Node* h)
  
         h = h->next;
     }
- 
     return false;
 }
  
